@@ -40,7 +40,7 @@ jobs:
       uses: azure/policy-compliance-scan@v0
       with:
         scopes: |
-          /subscriptions/9cbd346e-f4f9-4b10-b292-0d3058a73663
+          /subscriptions/9cbd346e-f4f9-4b10-b292-0d3058a73663/resourceGroups/TestGitHubActionAndPolicy
      
   build-and-deploy:
     runs-on: ubuntu-latest
